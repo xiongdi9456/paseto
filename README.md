@@ -175,8 +175,8 @@ nbt := now
 jsonToken := paseto.JSONToken{
         Audience:   "test",
         Issuer:     "test_service",
-        Jti:        "123",
-        Subject:    "test_subject",
+        Jti:        "123",//tokenID,可以使用随机UUID
+        Subject:    "test_subject",//token主题,可以使用userID,the subject might be the user ID of a person
         IssuedAt:   now,
         Expiration: exp,
         NotBefore:  nbt,
