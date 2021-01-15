@@ -154,6 +154,10 @@ cleartext but base64url-encoded) is included in the signature or authentication 
 
 # Installation
 
+```
+import "github.com/o1egl/paseto/v2"
+```
+
 To install the library use the following command:
 
 ```
